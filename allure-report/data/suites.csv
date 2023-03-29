@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Mar 29 22:43:57 CEST 2023","Wed Mar 29 22:44:12 CEST 2023","15705","","Visit https://glebbahmutov.com/blog/index.html and save the links to file","","","","visit the Bahmutov page and grab the links for blogs and write them to the json file",""
+"passed","Wed Mar 29 22:44:19 CEST 2023","Wed Mar 29 22:44:20 CEST 2023","1468","","duckduckgo.com","","","","visiting the frontpage",""
