@@ -25,5 +25,8 @@ module.exports = defineConfig({
     specPattern: 'cypress/e2e/**/*.feature',
     allureReuseAfterSpec: true,
     setupNodeEvents
-  }
+  },
+  viewportWidth: 1920,
+  viewportHeight: 1080,
+  defaultCommandTimeout: 15000
 })
