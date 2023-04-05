@@ -22,11 +22,13 @@ async function setupNodeEvents(on, config) {
 
 module.exports = defineConfig({
   e2e: {
+    baseUrl: 'http://localhost:3000/SnapShot#/SnapScout/',
     specPattern: 'cypress/e2e/**/*.feature',
     allureReuseAfterSpec: true,
     setupNodeEvents
   },
   viewportWidth: 1920,
   viewportHeight: 1080,
+  chromeWebSecurity: false,
   defaultCommandTimeout: 15000
 })

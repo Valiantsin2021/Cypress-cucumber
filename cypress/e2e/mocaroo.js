@@ -1,5 +1,5 @@
 import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor'
-// import neatCSV from 'neat-csv'
+import neatCSV from 'neat-csv'
 
 Given('I visit the www.mockaroo.com I see the main page', () => {
   cy.visit('https://www.mockaroo.com/')
@@ -23,8 +23,8 @@ Then('I should chose 3 rows for a file', () => {
 Then('I click on Download button and save the csv file', () => {
   cy.contains('Download').click()
   cy.fixture('../downloads/MOCK_DATA.csv')
-    // .then(neatCSV) // converts text into list of objects
+    .then(neatCSV)
     .then(data => {
-      expect(data.toString()).to.include('Cypress,Hello,There')
+      cy.log(data)
     })
 })

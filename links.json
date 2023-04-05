@@ -1,5 +1,13 @@
 [
   {
+    "title": "Full Code Coverage For Free",
+    "link": "https://glebbahmutov.com/blogfull-cy-code-coverage/"
+  },
+  {
+    "title": "Fix For Cypress Plugin Events",
+    "link": "https://glebbahmutov.com/blogfix-for-cypress-plugin-events/"
+  },
+  {
     "title": "Cypress Level Up Online Workshop April 2023",
     "link": "https://glebbahmutov.com/blogcypress-level-up-workshop/"
   },
@@ -390,13 +398,5 @@
   {
     "title": "Wordle Page Objects",
     "link": "https://glebbahmutov.com/blogwordle-page-objects/"
-  },
-  {
-    "title": "How To Check Network Requests Using Cypress",
-    "link": "https://glebbahmutov.com/blognetwork-requests-with-cypress/"
-  },
-  {
-    "title": "Pick Tests To Run Using The Pull Request Text",
-    "link": "https://glebbahmutov.com/blogpick-tests-using-pull-request/"
   }
 ]

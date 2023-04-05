@@ -5,12 +5,19 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "npx cypress open",
-    "test": "npx cypress run --env allure=true",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test:react": "react-scripts test",
+    "eject": "react-scripts eject",
+    "ci": "start-server-and-test start 3000 'cypress open'",
+    "test": "start-server-and-test start 3000 'cypress run --env allure=true'",
     "clean:folders": "rimraf allure-report/* && rimraf allure-results/*",
     "pretest": "npm run clean:folders",
-    "posttest": "allure generate allure-results --clean -o allure-report",
+    "posttest": "allure generate allure-results --clean -o allure-report && node ./node_modules/single-html/combine.js ./allure-report",
     "lint": "eslint ./cypress/e2e/*.js",
-    "format": "prettier --write ."
+    "format": "prettier --write '**/*.{js,json,md}'"
   },
   "pre-commit": [
     "format",
@@ -28,12 +35,37 @@
     "eslint-plugin-chai-friendly": "^0.7.2",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-prettier": "^4.2.1",
-    "neat-csv": "^7.0.0",
+    "neat-csv": "^5.0.0",
     "pre-commit": "^1.2.2",
-    "prettier": "2.7.1"
+    "prettier": "2.7.1",
+    "single-html": "^0.0.5",
+    "start-server-and-test": "^2.0.0"
   },
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^16.0.0",
-    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0"
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
