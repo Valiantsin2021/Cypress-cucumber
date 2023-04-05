@@ -7,7 +7,7 @@
     "cy:open": "npx cypress open",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test:react": "react-scripts test",
     "eject": "react-scripts eject",

@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Apr 04 23:48:51 CEST 2023","Tue Apr 04 23:49:00 CEST 2023","8919","","Visit https://glebbahmutov.com/blog/index.html and save the links to file","","","","visit the Bahmutov page and grab the links for blogs and write them to the json file",""
-"passed","Tue Apr 04 23:48:33 CEST 2023","Tue Apr 04 23:48:43 CEST 2023","10720","","Snapshot website test scenarios","","","","visiting the home page - successful search",""
-"passed","Tue Apr 04 23:49:08 CEST 2023","Tue Apr 04 23:49:12 CEST 2023","4043","","duckduckgo.com","","","","visiting the frontpage",""
