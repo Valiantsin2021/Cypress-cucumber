@@ -37,7 +37,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "neat-csv": "^5.0.0",
     "pre-commit": "^1.2.2",
-    "prettier": "2.7.1",
+    "prettier": "2.8.7",
     "single-html": "^0.0.5",
     "start-server-and-test": "^2.0.0"
   },
