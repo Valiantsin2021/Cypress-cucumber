@@ -1947,14 +1947,14 @@
 
 "@shelex/allure-js-commons-browser@1.4.1":
   version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@shelex/allure-js-commons-browser/-/allure-js-commons-browser-1.4.1.tgz#a2d4b785eec75c490df79233e36b070e6b660ad4"
+  resolved "https://registry.npmjs.org/@shelex/allure-js-commons-browser/-/allure-js-commons-browser-1.4.1.tgz"
   integrity sha512-8cImusrmhPU4Ic9IT2416sg6dnxKgjE3ftCdnebU5WlLsEhEQ7Iz1i80jJeIyJAz3mDO5eXFkNmFFS7rll6VFA==
   dependencies:
     uuid "9.0.0"
 
-"@shelex/cypress-allure-plugin@^2.38.3":
+"@shelex/cypress-allure-plugin@^2.37.0":
   version "2.38.3"
-  resolved "https://registry.yarnpkg.com/@shelex/cypress-allure-plugin/-/cypress-allure-plugin-2.38.3.tgz#704f25b0b76f991375d1ca4336f25ee6ce7ad795"
+  resolved "https://registry.npmjs.org/@shelex/cypress-allure-plugin/-/cypress-allure-plugin-2.38.3.tgz"
   integrity sha512-TYAZvEc1+9CLhV4Z5GECk1OiMvuEgckuR8kfsY3OhHdJOUQADiuE11oAxLnS5sqGd+01TAfC8Md9ZFsBC+LQ6w==
   dependencies:
     "@shelex/allure-js-commons-browser" "1.4.1"
@@ -2140,10 +2140,10 @@
     "@testing-library/dom" "^6.15.0"
     "@types/testing-library__react" "^9.1.2"
 
-"@testing-library/user-event@^7.1.2":
-  version "7.2.1"
-  resolved "https://registry.npmjs.org/@testing-library/user-event/-/user-event-7.2.1.tgz"
-  integrity sha512-oZ0Ib5I4Z2pUEcoo95cT1cr6slco9WY7yiPpG+RGNkj8YcYgJnM7pXmYmorNOReh8MIGcKSqXyeGjxnr8YiZbA==
+"@testing-library/user-event@^14.0.0":
+  version "14.4.3"
+  resolved "https://registry.npmjs.org/@testing-library/user-event/-/user-event-14.4.3.tgz"
+  integrity sha512-kCUc5MEwaEMakkO5x7aoD+DLi02ehmEM2QCGWvNqAS1dV/fAvORWEjnjsEIvml59M7Y5kCkWN6fCCyPOe8OL6Q==
 
 "@types/aria-query@^5.0.1":
   version "5.0.1"
@@ -4535,7 +4535,7 @@ crypto-browserify@^3.0.0, crypto-browserify@^3.11.0:
 
 crypto-js@4.1.1:
   version "4.1.1"
-  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-4.1.1.tgz#9e485bcf03521041bd85844786b83fb7619736cf"
+  resolved "https://registry.npmjs.org/crypto-js/-/crypto-js-4.1.1.tgz"
   integrity sha512-o2JlM7ydqd3Qk9CA0L4NL6mTzU2sdx96a+oOfPu8Mkl/PK51vSyoi8/rQ8NknZtk44vq15lmhAj9CIAGwgeWKw==
 
 css-blank-pseudo@^0.1.4:
@@ -9504,7 +9504,7 @@ ms@2.0.0:
 
 ms@2.1.2, ms@^2.1.1:
   version "2.1.2"
-  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
+  resolved "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
 ms@2.1.3:
@@ -13720,7 +13720,7 @@ utils-merge@1.0.1:
 
 uuid@9.0.0:
   version "9.0.0"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.0.tgz#592f550650024a38ceb0c562f2f6aa435761efb5"
+  resolved "https://registry.npmjs.org/uuid/-/uuid-9.0.0.tgz"
   integrity sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==
 
 uuid@^3.0.1, uuid@^3.3.2:
